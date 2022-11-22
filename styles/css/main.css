@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.hammasi {
+  background-color: #1C3D5B;
+}
+
+#main-header {
+  padding: 2rem 0;
+  color: #fff;
+}
+#main-header .logo img {
+  width: 25px;
+  height: 33px;
+}
+#main-header .logo h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+#main-header ul {
+  margin-left: 48rem;
+}
+#main-header ul li {
+  padding-right: 2rem;
+  font-size: 16px;
+}
+#main-header ul li a:hover {
+  font-size: 17px;
+}
+#main-header .button {
+  padding: 11px 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  color: #1C3D5B;
+  font-size: 16px;
+  font-weight: 700;
+}
+#main-header .button:hover {
+  background-color: #69E6A6;
+}
+
+#menu {
+  color: #fff;
+}
+#menu .portion .box {
+  padding: 12px 30px;
+  border-radius: 19px;
+  border: 2px solid #69E6A6;
+  background-color: #69E6A6;
+  color: #1C3D5B;
+  margin-top: 0.5rem;
+}
+#menu .portion .box a {
+  font-size: 16px;
+  font-weight: 700;
+}
+#menu .portion .box:hover {
+  background-color: #1C3D5B;
+  color: #69E6A6;
+  border: 2px solid #fff;
+}
+#menu .portion .box-2 {
+  padding: 12px 30px;
+  border-radius: 19px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #1C3D5B;
+  margin-left: 1rem;
+}
+#menu .portion .box-2 a {
+  font-size: 16px;
+  font-weight: 700;
+}
+#menu .portion h1 {
+  font-size: 48px;
+  font-weight: 400;
+  width: 490px;
+}
+#menu .portion p {
+  font-size: 16px;
+  font-weight: 400;
+  width: 490px;
+  padding: 1.3rem 0;
+}
+#menu .portion-3 {
+  padding-top: 2rem;
+}
+
+#product .portion-4 h4 {
+  color: grey;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+#product .portion-4 h2 {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 400;
+}
+#product .portion-4 h2 span {
+  display: inline-block;
+  margin-left: 9rem;
+}
+#product .your {
+  margin-top: 3rem;
+}
+#product .your h3 {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0.7rem 0;
+}
+#product .your p {
+  width: 230px;
+}
+#product .your .page {
+  margin-top: 1rem;
+}
+#product .your .page h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+#product .your .page img {
+  width: 18px;
+  height: 18px;
+  margin-left: 0.3rem;
+}
+
+.cover {
+  margin-top: -7rem;
+}
+.cover h2 {
+  width: 458px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.cover .main {
+  padding: 15px 50px;
+  background-color: #1C3D5B;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  margin-top: 2rem;
+}
+.cover .main a {
+  font-size: 17px;
+  font-weight: 700;
+}
+.cover ul {
+  margin-top: 3rem;
+}
+.cover ul li {
+  padding: 0.5rem;
+}
+.cover ul li .square {
+  border: 1px solid #1C3D5B;
+  background-color: #1C3D5B;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.cover ul li img {
+  width: 10px;
+  height: 10px;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  margin-top: -6rem;
+}
+.one h2 {
+  width: 458px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.one .cap {
+  margin-top: 4rem;
+  background-color: #1C3D5B;
+  color: #fff;
+}
+.one button {
+  padding: 23px 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.397);
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.one button a {
+  justify-content: flex-start;
+}
+.one button img {
+  margin-right: 1rem;
+  margin-left: -5rem;
+}
+
+#about {
+  background-color: #1C3D5B;
+}
+#about .portion-8 .yozuv h2 {
+  font-size: 48px;
+  font-weight: 300;
+  width: 680px;
+  color: #fff;
+}
+#about .portion-8 .katta {
+  padding-top: 3rem;
+}
+#about .portion-8 .katta .dumaloq {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+#about .portion-9 {
+  margin-top: 3rem;
+}
+#about .portion-9 .card3 {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 7px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#about .portion-9 .card3 p {
+  width: 240px;
+  font-size: 22px;
+  font-weight: 400px;
+  padding: 0.3rem 0;
+}
+#about .portion-9 .card3 .call .roc {
+  padding-right: 1rem;
+}
+#about .portion-9 .card3 .call .ciz h4 {
+  padding-bottom: 0.4rem;
+}
+#about .portion-9 .card2 {
+  width: 350px;
+  height: 390px;
+  background-color: #fff;
+  border-radius: 7px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#about .portion-9 .card2 p {
+  width: 240px;
+  font-size: 22px;
+  font-weight: 400px;
+  padding: 0.3rem 0;
+}
+#about .portion-9 .card2 .call .roc {
+  padding-right: 1rem;
+}
+#about .portion-9 .card2 .call .ciz h4 {
+  padding-bottom: 0.4rem;
+}
+#about .portion-9 .card {
+  width: 350px;
+  height: 320px;
+  background-color: #fff;
+  border-radius: 7px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#about .portion-9 .card p {
+  width: 240px;
+  font-size: 22px;
+  font-weight: 400px;
+  padding: 0.3rem 0;
+}
+#about .portion-9 .card .call .roc {
+  padding-right: 1rem;
+}
+#about .portion-9 .card .call .ciz h4 {
+  padding-bottom: 0.4rem;
+}
+
+#focus .portion-10 {
+  justify-content: center;
+}
+#focus .portion-11 {
+  margin-left: 6rem;
+  margin-top: 2rem;
+  display: flex;
+}
+#focus .portion-11 h2 {
+  width: 500px;
+  font-size: 36px;
+  font-weight: 400;
+}
+#focus .portion-11 p {
+  margin-left: 19rem;
+  border-bottom: 1px solid black;
+  padding: 1.2rem 0;
+}
+
+#blog .portion-12 h5 {
+  text-align: center;
+  color: #777;
+  font-weight: 400;
+  font-size: 18px;
+}
+#blog .portion-12 h2 {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 400;
+}
+#blog .log {
+  margin-top: 2rem;
+}
+#blog .log .categories {
+  padding-top: 1rem;
+}
+#blog .log .categories h4 {
+  color: #0A2640;
+}
+#blog .log .categories p {
+  margin-left: 0.5rem;
+  color: #777;
+}
+#blog .log .p {
+  width: 300px;
+  font-size: 20px;
+  padding: 1rem 0;
+}
+#blog .of {
+  margin-top: 1.4rem;
+}
+#blog .of a {
+  padding-left: 9px;
+}
+#blog .ohirgi {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  margin-top: 5rem;
+}
+#blog .ohirgi button {
+  border: 2px solid #0A2640;
+  padding: 15px 40px;
+  border-radius: 24px;
+  background-color: #fff;
+  color: #0A2640;
+}
+#blog .ohirgi button a {
+  font-size: 16px;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */

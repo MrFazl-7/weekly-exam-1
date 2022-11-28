@@ -404,4 +404,92 @@ section {
 #blog .ohirgi button a {
   font-size: 16px;
   font-weight: 700;
+}
+
+.form {
+  height: 391px;
+  width: 1300px;
+  border-radius: 12px;
+  color: white;
+  background: #0A2640;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.form h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  /* or 150% */
+  width: 716px;
+  height: 139px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form input {
+  width: 370px;
+  height: 56px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 240px;
+  align-items: center;
+  text-align: center;
+}
+.form button {
+  border: 2px solid #0A2640;
+  padding: 15px 40px;
+  border-radius: 24px;
+  background-color: #65E4A3;
+  color: #0A2640;
+}
+.form button a {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info {
+  width: 1300px;
+  height: 474px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .logoinfo {
+  width: 300px;
+  height: 229px;
+  display: flex;
+  float: left;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info .contacts {
+  width: 950px;
+  height: 229px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info .contacts .contact {
+  width: 150px;
+  height: 229px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.info .contacts .contact ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.info .contacts .contact ul li {
+  margin: 20px;
 }/*# sourceMappingURL=main.css.map */
